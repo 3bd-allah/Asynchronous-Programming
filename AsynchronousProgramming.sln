@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncAndAsyncApproaches", "S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationToken", "CancellationToken\CancellationToken.csproj", "{65EA2C3E-FC2F-4C26-97DA-AEE90D516E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportProgressFromAsyncFunction", "ReportProgressFromAsyncFunction\ReportProgressFromAsyncFunction.csproj", "{3007BDF7-EC1B-4CA3-B12E-10A7DF35F2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportProgressFromAsyncFunction", "ReportProgressFromAsyncFunction\ReportProgressFromAsyncFunction.csproj", "{3007BDF7-EC1B-4CA3-B12E-10A7DF35F2D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinators", "Combinators\Combinators.csproj", "{56C549CF-E3D1-42D5-BE6D-D7CB9EF46FA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Combinators", "Combinators\Combinators.csproj", "{56C549CF-E3D1-42D5-BE6D-D7CB9EF46FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyAndParallelism", "ConcurrencyAndParallelism\ConcurrencyAndParallelism.csproj", "{4BE754F2-8F50-4931-8CC5-0ACF6CC1E0EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{56C549CF-E3D1-42D5-BE6D-D7CB9EF46FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56C549CF-E3D1-42D5-BE6D-D7CB9EF46FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56C549CF-E3D1-42D5-BE6D-D7CB9EF46FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE754F2-8F50-4931-8CC5-0ACF6CC1E0EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE754F2-8F50-4931-8CC5-0ACF6CC1E0EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE754F2-8F50-4931-8CC5-0ACF6CC1E0EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE754F2-8F50-4931-8CC5-0ACF6CC1E0EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
